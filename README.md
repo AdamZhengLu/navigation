@@ -9,7 +9,7 @@
 
 >静态图
 
-
+![预览](assets/img/navigation-screenshot.png)
 
 ### 注
 
