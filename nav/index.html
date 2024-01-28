@@ -65,8 +65,8 @@
                     <div class="s-type text-center overflow-x-auto">
                         <div class="s-type-list big">
                             <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
-                            <label for="type-baidu1" class="active" data-id="group-a"><span>搜索</span></label>
-                            <label for="type-zhihu"  data-id="group-b"><span>社区</span></label>
+                            <label for="type-hupu" class="active" data-id="group-a"><span>搜索</span></label>
+                            <label for="type-zhihu"  data-id="group-b"><span>论坛</span></label>
                         </div>
                     </div>
                 </div>
@@ -77,21 +77,32 @@
                 <div id="search-list" class="hide-type-list">
                     <div class="search-group group-a s-current">
                         <ul class="search-type">
-                            <li><input checked="checked" hidden="" type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下"><label for="type-baidu1"><span class="text-muted">百度</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="谷歌两下"><label for="type-google1"><span class="text-muted">谷歌</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索"><label for="type-sogo"><span class="text-muted">搜狗</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="必应搜索"><label for="type-bing1"><span class="text-muted">必应</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-kuake" value="https://quark.sm.cn/s?q=" data-placeholder="夸克搜索"><label for="type-kuake"><span class="text-muted">夸克</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-toutiao" value="https://so.toutiao.com/search/?keyword=" data-placeholder="头条搜索"><label for="type-toutiao"><span class="text-muted">头条</span></label></li>
+                            <li><input checked="checked" hidden="" type="radio" name="type" id="type-hupu" value="https://bbs.hupu.com/search?q=" data-placeholder="虎扑体育">
+                                <label for="type-hupu"><span class="text-muted">虎扑</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="谷歌两下">
+                                <label for="type-google1"><span class="text-muted">谷歌</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索">
+                                <label for="type-sogo"><span class="text-muted">搜狗</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="必应搜索">
+                                <label for="type-bing1"><span class="text-muted">必应</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-kuake" value="https://quark.sm.cn/s?q=" data-placeholder="夸克搜索">
+                                <label for="type-kuake"><span class="text-muted">夸克</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-toutiao" value="https://so.toutiao.com/search/?keyword=" data-placeholder="头条搜索">
+                                <label for="type-toutiao"><span class="text-muted">头条</span></label></li>
                         </ul>
                     </div>
                     <div class="search-group group-b">
                         <ul class="search-type">
-                            <li><input hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&q=" data-placeholder="知乎"><label for="type-zhihu"><span class="text-muted">知乎</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-wechat" value="https://weixin.sogou.com/weixin?type=2&query=" data-placeholder="微信"><label for="type-wechat"><span class="text-muted">微信</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-weibo" value="https://s.weibo.com/weibo/" data-placeholder="微博"><label for="type-weibo"><span class="text-muted">微博</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q=" data-placeholder="豆瓣"><label for="type-douban"><span class="text-muted">豆瓣</span></label></li>
-                            <li><input hidden="" type="radio" name="type" id="type-why" value="https://ask.seowhy.com/search/?q=" data-placeholder="SEO问答社区"><label for="type-why"><span class="text-muted">搜外问答</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&q=" data-placeholder="知乎">
+                                <label for="type-zhihu"><span class="text-muted">知乎</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-wechat" value="https://weixin.sogou.com/weixin?type=2&query=" data-placeholder="微信">
+                                <label for="type-wechat"><span class="text-muted">微信</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-weibo" value="https://s.weibo.com/weibo/" data-placeholder="微博">
+                                <label for="type-weibo"><span class="text-muted">微博</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q=" data-placeholder="豆瓣">
+                                <label for="type-douban"><span class="text-muted">豆瓣</span></label></li>
+                            <li><input hidden="" type="radio" name="type" id="type-why" value="https://ask.seowhy.com/search/?q=" data-placeholder="SEO问答社区">
+                                <label for="type-why"><span class="text-muted">搜外问答</span></label></li>
                         </ul>
                     </div>
                 </div>
