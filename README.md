@@ -1,7 +1,7 @@
 
 ### 个人导航页
 
->这是我的 [导航页](https://adamzhenglu.github.io/Navigation)
+>这是我的 [导航页](https://zhenglu.top/navigation/)
 
 >修改自 [liutongxu](https://liutongxu.github.io) 所长导航
 
