@@ -539,8 +539,9 @@
                                     <label for="type-zhiwang" data-id="group-b"><span>文献</span></label>
                                     <label for="type-br" data-id="group-c"><span>工具</span></label>
                                     <label for="type-zhihu" data-id="group-d"><span>社区</span></label>
-                                    <label for="type-taobao1" data-id="group-e"><span>生活</span></label>
-                                    <label for="type-zhaopin" data-id="group-f"><span>休闲</span></label>
+                                    <label for="type-taobao" data-id="group-e"><span>生活</span></label>
+                                    <label for="type-xiuxian" data-id="group-f"><span>休闲</span></label>
+                                    <label for="type-zhaopin" data-id="group-g"><span>求职</span></label>
                                 </div>
                             </div>
                         </div>
@@ -550,7 +551,7 @@
                             <button type="submit"><i class="iconfont icon-search"></i></button>
                         </form>
                         <div id="search-list" class="hide-type-list">
-                            <div class="search-group group-a ">
+                            <div class="search-group group-a">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下">
                                         <label for="type-baidu"><span class="text-muted">百度</span></label></li>
@@ -562,7 +563,8 @@
                                         <label for="type-sm"><span class="text-muted">神马</span></label></li>
                                 </ul>
                             </div>
-                            <div class="search-group group-b ">
+                            
+                            <div class="search-group group-b">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-zhiwang" value="https://kns.cnki.net/kns8s/defaultresult/index?kw=" data-placeholder="中国知网（CNKI）">
                                         <label for="type-zhiwang"><span class="text-muted">知网</span></label></li>
@@ -576,7 +578,8 @@
                                         <label for="type-zlib"><span class="text-muted">图书</span></label></li>
                                 </ul>
                             </div>
-                            <div class="search-group group-c ">
+                            
+                            <div class="search-group group-c">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-br"
                                             value="https://rank.chinaz.com/all/"
@@ -600,7 +603,8 @@
                                             for="type-ciku"><span class="text-muted">关键词挖掘</span></label></li>
                                 </ul>
                             </div>
-                            <div class="search-group group-d ">
+                            
+                            <div class="search-group group-d">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-zhihu"
                                             value="https://www.zhihu.com/search?type=content&q="
@@ -621,7 +625,8 @@
                                             for="type-why"><span class="text-muted">搜外问答</span></label></li>
                                 </ul>
                             </div>
-                            <div class="search-group group-e ">
+                            
+                            <div class="search-group group-e">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-taobao1"
                                             value="https://s.taobao.com/search?q=" data-placeholder="淘宝"><label
@@ -645,22 +650,62 @@
                                             for="type-qunar"><span class="text-muted">去哪儿</span></label></li>
                                 </ul>
                             </div>
-                            <div class="search-group group-f ">
+                            
+                            <div class="search-group group-f">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-zhaopin"
-                                            value="https://www.acfun.cn/search?keyword=" data-placeholder="A站"><label 
-                                            for="type-zhaopin"><span class="text-muted">A站</span></label></li>
+                                            value="https://www.acfun.cn/search?keyword=" data-placeholder="A站">
+                                        <label for="type-a-zhan"><span class="text-muted">A站</span>
+                                        </label>
+                                    </li>
                                     <li><input hidden="" type="radio" name="type" id="type-51job"
-                                            value="https://search.bilibili.com/all?keyword=" data-placeholder="B站"><label
-                                            for="type-51job"><span class="text-muted">B站</span></label></li>
+                                            value="https://search.bilibili.com/all?keyword=" data-placeholder="B站">
+                                        <label for="type-b-zhan"><span class="text-muted">B站</span>
+                                        </label>
+                                    </li>
                                     <li><input hidden="" type="radio" name="type" id="type-lagou"
-                                            value="https://so.csdn.net/so/search?spm=" data-placeholder="C(SDN)站"><label
-                                            for="type-lagou"><span class="text-muted">C(SDN)站</span></label></li>
+                                            value="https://so.csdn.net/so/search?spm=" data-placeholder="C(SDN)站">
+                                        <label for="type-c-zhan"><span class="text-muted">C(SDN)站</span>
+                                        </label>
+                                    </li>
                                     <li><input hidden="" type="radio" name="type" id="type-liepin"
-                                            value="https://www.dilidiliw.com/public/api.php?app=video&do=search&q=" data-placeholder="D站"><label
-                                            for="type-liepin"><span class="text-muted">D站</span></label></li>
+                                            value="https://www.dilidiliw.com/public/api.php?app=video&do=search&q=" data-placeholder="D站">
+                                        <label for="type-d-zhan"><span class="text-muted">D站</span>
+                                        </label>
+                                    </li>
                                 </ul>
                             </div>
+                            
+                            <div class="search-group group-g"><span class="type-text text-muted">求职</span>
+                                <ul class="search-type">
+                                    <li><input hidden="" type="radio" name="type2" id="m_type-qingta" value="https://job.cingta.com/search/key=" data-placeholder="青塔人才">
+                                        <label for="type-qingta">
+                                        <span class="text-muted">青塔人才</span>
+                                        </label>
+                                    </li>
+                                    <li><input hidden="" type="radio" name="type2" id="m_type-yingjiesheng" value="https://q.yingjiesheng.com/jobs/search/" data-placeholder="应届生">
+                                        <label for="type-yingjiesheng">
+                                        <span class="text-muted">应届生</span>
+                                        </label>
+                                    </li>
+                                    <li><input hidden="" type="radio" name="type2" id="m_type-zhilianxiaoyuan" value="https://sou.zhaopin.com/jobs/searchresult.ashx?kw=" data-placeholder="智联校园">
+                                        <label for="type-zhilianxiaoyuan">
+                                        <span class="text-muted">智联校园</span>
+                                        </label>
+                                    </li>
+                                    <li><input hidden="" type="radio" name="type2" id="m_type-shiyedanwei" value="https://www.qgsydw.com/qgsydw/totalsearch.html?word=" data-placeholder="全国事业单位招聘">
+                                        <label for="type-shiyedanwei">
+                                        <span class="text-muted">全国事业单位招聘平台</span>
+                                        </label>
+                                    </li>
+                                    <li><input hidden="" type="radio" name="type2" id="m_type-guopin" value="https://www.iguopin.com/job/list?keyword=" data-placeholder="国聘">
+                                        <label for="type-guopin">
+                                        <span class="text-muted">国企招聘平台</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            
                         </div>
                         <div class="card search-smart-tips" style="display: none">
                             <ul></ul>
@@ -4340,12 +4385,12 @@
                             <div class="s-type">
                                 <span></span>
                                 <div class="s-type-list">
-                                    <label for="m_type-baidu" data-id="group-a">常用</label><label for="m_type-baidu1"
-                                        data-id="group-b">搜索</label><label for="m_type-br"
-                                        data-id="group-c">工具</label><label for="m_type-zhihu"
-                                        data-id="group-d">社区</label><label for="m_type-taobao1"
-                                        data-id="group-e">生活</label><label for="m_type-zhaopin"
-                                        data-id="group-f">求职</label>
+                                    <label for="m_type-changyong1" data-id="group-a">常用</label>
+                                    <label for="m_type-baidu1" data-id="group-b">搜索</label>
+                                    <label for="m_type-br" data-id="group-c">工具</label>
+                                    <label for="m_type-zhihu1" data-id="group-d">社区</label>
+                                    <label for="m_type-taobao1" data-id="group-e">生活</label>
+                                    <label for="m_type-zhaopin" data-id="group-f">求职</label>
                                 </div>
                             </div>
                             <div class="search-group group-a"><span class="type-text text-muted">常用</span>
@@ -4434,6 +4479,7 @@
                                             for="m_type-why"><span class="text-muted">搜外问答</span></label></li>
                                 </ul>
                             </div>
+                            
                             <div class="search-group group-e"><span class="type-text text-muted">生活</span>
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type2" id="m_type-taobao1"
@@ -4461,6 +4507,7 @@
                                             for="m_type-qunar"><span class="text-muted">去哪儿</span></label></li>
                                 </ul>
                             </div>
+                            
                             <div class="search-group group-f"><span class="type-text text-muted">求职</span>
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type2" id="m_type-qingta" value="https://job.cingta.com/search/key=" data-placeholder="青塔人才">
@@ -4480,12 +4527,15 @@
                                         <span class="text-muted">国企招聘平台</span></label></li>
                                 </ul>
                             </div>
+                            
                         </div>
+                        
                         <form action="https://nav.iowen.cn?s=" method="get" target="_blank" class="super-search-fm">
                             <input type="text" id="m_search-text" class="form-control smart-tips search-key" zhannei=""
                                 autocomplete="off" placeholder="输入关键字搜索" style="outline:0">
                             <button type="submit"><i class="iconfont icon-search"></i></button>
                         </form>
+                        
                         <div class="card search-smart-tips" style="display: none">
                             <ul></ul>
                         </div>
